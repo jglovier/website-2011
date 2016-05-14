@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://2011.joelglovier.com/hacc/ -->
+<html data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	<link href="http://2011.joelglovier.com/css/2011/main.css" rel="stylesheet">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="http://2011.joelglovier.com/favicon.jpg">
+	<link rel="canonical" href="http://joelglovier.com/hacc/">
+	<meta name="copyright" content="Joel Andrew Glovier 2011">
+	<meta name="author" content="Joel Andrew Glovier">
+	<meta name="description" content="Information and resources for courses Joel Glovier teaches at the Harrisburg Area Community College noncredit technology department.">
+	<meta name="keywords" content="HACC, college, web design, curriculum, photoshop, illustrator, resources, Harrisburg Area Community College">
+	<meta name="robots" content="index, follow">
+	<meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o">
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<script type="text/javascript" async="" src="./index_files/ga.js"></script><script src="./index_files/jquery.min.js"></script>
+	
+	<!--
+	/*
+	 * MyFonts Webfont Build ID 374432, 2011-02-09T15:16:26-0500
+	 * 
+	 * The fonts listed in this notice are subject to the End User License
+	 * Agreement(s) entered into by the website owner. All other parties are 
+	 * explicitly restricted from using the Licensed Webfonts(s).
+	 * 
+	 * You may obtain a valid license at the urls below.
+	 * 
+	 * Webfont: Kondolar
+	 * Url: http://new.myfonts.com/fonts/cadson-demak/kondolar/regular/
+	 * Foundry: Cadson Demak
+	 * Copyright: Copyright (c) 2010 by Ekaluck Peanpanawate. All rights reserved.
+	 * License: http://www.myfonts.com/viewlicense?1056
+	 * Licensed pageviews: 100,000/month
+	 * CSS font-family: Kondolar-Regular
+	 * CSS font-weight: normal
+	 * 
+	 * Webfont: Kondolar Italic
+	 * Url: http://new.myfonts.com/fonts/cadson-demak/kondolar/italic/
+	 * Foundry: Cadson Demak
+	 * Copyright: Copyright (c) 2010 by Ekaluck Peanpanawate. All rights reserved.
+	 * License: http://www.myfonts.com/viewlicense?1056
+	 * Licensed pageviews: 100,000/month
+	 * CSS font-family: Kondolar-Italic
+	 * CSS font-weight: normal
+	 * 
+	 * Webfont: Kondolar Bold
+	 * Url: http://new.myfonts.com/fonts/cadson-demak/kondolar/bold/
+	 * Foundry: Cadson Demak
+	 * Copyright: Copyright (c) 2010 by Ekaluck Peanpanawate. All rights reserved.
+	 * License: http://www.myfonts.com/viewlicense?1056
+	 * Licensed pageviews: 100,000/month
+	 * CSS font-family: Kondolar-Bold
+	 * CSS font-weight: normal
+	 * 
+	 * Webfont: Kondolar Black
+	 * Url: http://new.myfonts.com/fonts/cadson-demak/kondolar/black/
+	 * Foundry: Cadson Demak
+	 * Copyright: Copyright (c) 2010 by Ekaluck Peanpanawate. All rights reserved.
+	 * License: http://www.myfonts.com/viewlicense?1056
+	 * Licensed pageviews: 100,000/month
+	 * CSS font-family: Kondolar-Black
+	 * CSS font-weight: normal
+	 * 
+	 * (c) 2011 Bitstream, Inc
+	*/
+	
+	
+	-->
+	<script type="text/javascript">
+	//change this to true to enable troubleshooting mode
+	var myfont_webfont_test = false;
+	// change this to false if you're having trouble with WOFFs
+	var woffEnabled = true;
+	// to place your webfonts in a custom directory, uncomment this and set it to where your webfonts are.
+	//var customPath = "/themes/fonts";
+	</script>
+	
+	<script type="text/javascript" src="./index_files/MyFonts-Webfonts-Order-M2721065.js"></script><style>
+@font-face {font-family:"Kondolar-Regular";src:url("http://2011.joelglovier.com/css/fonts/kondolar/webfonts/woff/style_196622.woff") format("woff");}
+@font-face {font-family:"Kondolar-Italic";src:url("http://2011.joelglovier.com/css/fonts/kondolar/webfonts/woff/style_196620.woff") format("woff");}
+@font-face {font-family:"Kondolar-Bold";src:url("http://2011.joelglovier.com/css/fonts/kondolar/webfonts/woff/style_196621.woff") format("woff");}
+@font-face {font-family:"Kondolar-Black";src:url("http://2011.joelglovier.com/css/fonts/kondolar/webfonts/woff/style_196619.woff") format("woff");}
+</style>
+	
+<!--/Kondolar MyFonts-->
+	
+	<!-- provided by JohnFX on Stackoverflow.com -->
+	<script>
+	$(document).ready(function() {
+	   
+	   $(".scroll").click(function(event){
+	   		//prevent the default action for the click event
+	   		event.preventDefault();
+	   
+	   		//get the full url - like mysitecom/index.htm#home
+	   		var full_url = this.href;
+	   
+	   		//split the url by # and get the anchor target name - home in mysitecom/index.htm#home
+	   		var parts = full_url.split("#");
+	   		var trgt = parts[1];
+	   
+	   		//get the top offset of the target anchor
+	   		var target_offset = $("#"+trgt).offset();
+	   		var target_top = target_offset.top;
+	   
+	   		//goto that anchor by setting the body scroll top to anchor top
+	   		$('html, body').animate({scrollTop:target_top}, 'slow');
+	   	});
+	   
+	});
+	</script>
+	
+	<!-- Google Analytics Script -->
+	
+	<script>
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-17567335-1']);
+	  _gaq.push(['_trackPageview']);
+	  _gaq.push(['_trackPageLoadTime']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+
+<title>HACC courses</title>
+
+<style type="text/css"></style></head>
+
+<body id="hacc-main">
+
+	<div class="wrap">
+		
+		<h2 class="large-title page-title"><span class="jag">JAG</span> @ <span class="hacc">HACC</span></h2>
+
+		<p>The next course at HACC I'm teaching is Web Authoring, a noncredit technology course at the Harrisburg Midtown Campus April 9th, and 16th, 2011.</p>
+
+		<a class="link-to-outline" href="http://2011.joelglovier.com/hacc/web-authoring"><span>Click here to view the course outline.</span></a>
+		
+	</div>
+
+
+
+
+</body></html>
