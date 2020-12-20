@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/*
+
+           $$$$$$$$           $$$$$$$$   $$$$$$$$$$$$      
+           $$$$$$$$          $$$$$$$$$ $$$$$$$$$$$$$$$$     
+           $$$$$$$$        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   
+           $$$$$$$$       $$$$$$$$$$$$$$$$$      $$$$$$$$$$ 
+           $$$$$$$$      $$$$$$$$$$$$$$$           $$$$$$$$$
+           $$$$$$$$    $$$$$$$$$$$$$$$$                     
+           $$$$$$$$   $$$$$$$$$ $$$$$$$     $$$$$$$$$$$$$$$$
+           $$$$$$$$  $$$$$$$$   $$$$$$$     $$$$$$$$$$$$$$$$
+           $$$$$$$$$$$$$$$$     $$$$$$$     $$$$$$$$$$$$$$$$
+$$$$$$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$           $$$$$$$$ 
+$$$$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$      $$$$$$$$$  
+ $$$$$$$$$$$$$$$$$$$$$$$        $$$$$$$$$$$$$$$$$$$$$$$$   
+   $$$$$$$$$$$$$$$$$$$          $$$$$$$$$$$$$$$$$$$$$$    
+     $$$$$$$$$$$$$$$            $$$$$$$   $$$$$$$$$$       
+
+*/
+
+/* 
+Title:						Religion vs Faith landingpage stylesheet
+Author:						Joel A. Glovier
+Author email:			me@joelglovier.com
+Author URI:				http://joelglovier.com
+Copyright:				Joel Andrew Glovier 2011
+Created:					04/13/2011
+Version:					1.0
+*/
+
+/* MY INTENT
+"Now here's a surprise: The master praised the crooked manager! And why? Because he knew how to look after himself. Streetwise people are smarter in this regard than law-abiding citizens. They are on constant alert, looking for angles, surviving by their wits. I want you to be smart in the same way, but for what is right, using every adversity to stimulate you to creative survival, to concentrate your attention on the bare essentials, so you'll live, really live, and not complacently just get by on good behavior." Luke 16:8-9
+
+The purpose of this site is to bring honor and glory to Jesus Christ by making use of "every angle", including design and technology to glorify the King of Kings.
+Joel Andrew Glovier
+July 2010
+*/
+
+/* COLOR PALATTE
+
+Vintage Orange - #e26841
+Vintage Black - #3c3532
+Vintage Creme - #eedfc7
+
+*/
+
+
+/* Conventions: */
+
+/* Main Categories -------------------- */
+
+  /* sub categories */
+
+/* @group Group Reset -------------------- */
+/* Based on http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	margin:0 auto;
+	position:relative;
+	color:#3c3532;
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:14px;
+	line-height:1.5;
+	background:#3c3532 url(/img/books/religion-faith/bg-texture.png);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* click movement style */
+a:active {
+	outline:0 none;
+	position: relative;
+	top:1px;
+}
+a:link, a:visited {
+	color:#006699;
+}
+.button:active {
+	top:1px;
+}
+
+/* @end Group Reset */
+
+
+/* @group Religion vs Faith Primary styles -------------------- */
+
+.wrap {
+	width:960px;
+	margin:0px auto;
+}
+#page-header {
+	background:#e26841 url(/img/books/religion-faith/bg-texture.png);
+	padding:78px 0px;
+}
+.book-title {
+	width:803px;
+	height:202px;
+	background:url(/img/books/religion-faith/title.png) no-repeat center center;
+	margin:20px auto;
+	text-indent:-9999px;
+}
+.book-description {
+	background:#eedfc7 url(/img/books/religion-faith/orange-bg-texture.png);
+	padding:10px 0px;
+	text-align:center;
+}
+.book-description .description {
+	width:658px;
+	height:82px;
+	margin:20px auto;
+	background:url(/img/books/religion-faith/description.png) no-repeat center top;
+	text-indent:-9999px;
+}
+.byline {
+	padding:10px 0px;
+	color:#eedfc7;
+	text-align:center;
+}
+.byline p a {
+	display:block;
+	width:393px;
+	height:45px;
+	margin:10px auto;
+	background:url(/img/books/religion-faith/byline.png) no-repeat center top;
+	text-indent:-9999px;
+}
+.byline p a:hover {
+	top:-1px;
+	position:relative;
+}
+#page-footer {
+	border-top:4px dotted #eedfc7;
+	padding:40px 0px;
+	color:#eedfc7;
+}
+#page-footer .disclaimer {
+	margin:0px 80px;
+	font-size:11px;
+	font-style:italic;
+}
+#page-footer .disclaimer a {
+	color:#e26841;
+}
+
+  /* share links */
+
+
+#page-footer .share{
+	margin:20px 80px;
+}
+.share .fb_iframe_widget,.share #linkedin-share,.share #google-share,.share #twitter-share{
+	float:left;
+	margin-right:40px;
+}
+
+
+/* @end religion vs faith */

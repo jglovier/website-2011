@@ -1,0 +1,93 @@
+/* Style Archive */
+
+/* @group old twitter feed styles */
+
+  /* Twitter feed */
+
+#twitter-feed {
+	margin-bottom:15px;
+	border-bottom:4px double #e3dcc7;
+	padding-bottom:20px;
+}
+#twitter-feed .quote {
+	font-family:Kondolar-Black;
+	font-size:340px;
+	line-height:290px;
+	color:#e9e6d5; /* light tan */
+	color:#E2E8DD; /* light blue */
+	float:left;
+	display:block;
+	height:100px;
+	width:160px;
+	margin-right:25px;
+	margin-top:8px;
+	text-shadow:2px 2px 0px #f3f2e1,3px 3px 0px #E2E8DD;
+	/*-webkit-mask-box-image:url(/img/h1-img-mask.png) 340 stretch;	- has bugs */
+
+	/* tan option matching coming soon text */
+	color:#e9e6d5;
+	text-shadow:2px 2px 0px #f3f2e1,3px 3px 0px #e9e6d5;
+}
+#twitter-feed .status {
+	font-size:24px;
+	font-family:Kondolar-Bold;
+	line-height:38px;
+	width:600px;
+	float:left;
+	color:#8e8b82; /* darker option */
+	/* color:#cac4b3;  lighter option */
+	/* color:#609DC1; light blue */
+	-moz-transition:color .5s ease;
+	-webkit-transition:color .5s ease;
+	overflow:hidden; /* for PHP errors when API limit is reached */
+	height:112px;
+}
+#twitter-feed .status:hover {
+	/* color:#1E77B3;  darker option */
+}
+#twitter-feed .follow-me {
+	text-align:right;
+	text-transform:uppercase;
+	float:right;
+	padding-right:15px;
+	margin-top:20px;
+}
+#twitter-feed .follow-me a {
+	text-decoration:none;
+	font-family:league-gothic;
+	font-size:49px;
+/* light blue */
+	color:#609DC1;
+	text-shadow:1px 1px 0px #f3f2e1,2px 2px 0px #BED3D5;
+
+/* light tan */
+	color:#cac4b3;
+	text-shadow:2px 2px 0px #f3f2e1,3px 3px 0px #e9e6d5;
+
+	border-left:1px solid #e3dcc7;
+	padding-left:20px;
+}
+#twitter-feed .follow-me a:hover,#twitter-feed .follow-me a:focus {
+	color:#d74c15;
+}
+#twitter-feed .status a {
+	text-decoration:none;
+	border-bottom:1px dotted;
+	color:#cac4b3;
+	padding-bottom:4px;
+}
+#twitter-feed .status a:hover,#twitter-feed .status a:focus {
+	color:#d74c15;
+	border-bottom:4px solid;
+}
+#twitter-feed .status .username,#twitter-feed .status .hashtag {
+	border-bottom:none;
+}
+#twitter-feed .status .username:hover,#twitter-feed .status .username:focus {
+	color:#1e77b3;
+}
+#twitter-feed .status .hashtag:hover,#twitter-feed .status .hashtag:focus {
+	color:#3cc6f4;
+}
+
+/* @end */
