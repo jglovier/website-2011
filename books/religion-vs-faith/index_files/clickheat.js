@@ -35,7 +35,7 @@
   
   <link rel="icon" type="image/x-icon" href="/favicon.png?v=3" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=3" />
-  <link rel="canonical" href="http://joelglovier.com/404.html" />
+  <link rel="canonical" href="http://2011.joelglovier.com/404.html" />
   <link rel="author" href="https://plus.google.com/+JoelGlovier/posts">
   <link href='http://joelglovier.com/feed.xml' rel='alternate' type='application/rss+xml'>
   <meta name="copyright" content="Joel Andrew Glovier 2013" />
